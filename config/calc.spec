@@ -3,6 +3,7 @@ Summary:        A calc app that rocks!
 Name:           calc
 Version:        %{calc_version}
 Release:        1
+License:        GPL
 
 %prep
 
