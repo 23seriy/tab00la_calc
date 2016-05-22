@@ -23,7 +23,7 @@ rm -rf /usr/local/taboola
 %dir /usr/local/taboola/calc/
 %dir /usr/local/taboola/calc/lib
 %dir /usr/local/bin
-/usr/local/taboola/calc/*.jar
+/usr/local/taboola/calc/taboola_test-*.jar
 /usr/local/taboola/calc/lib/*
 /usr/local/taboola/calc/execute_calc.sh
 /usr/local/bin/calc
