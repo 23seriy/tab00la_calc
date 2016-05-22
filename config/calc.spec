@@ -35,3 +35,4 @@ sudo rm -rf $RPM_BUILD_ROOT
 /usr/local/taboola/calc/lib/*
 /usr/local/taboola/calc/execute_calc.sh
 /usr/local/bin/calc
+/usr/local/taboola/calc/calc.spec
