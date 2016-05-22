@@ -24,7 +24,7 @@ sudo cp -R /usr/local/taboola/calc/* $RPM_BUILD_ROOT/usr/local/taboola/calc/
 sudo ln -sf /usr/local/taboola/calc/execute_calc.sh $RPM_BUILD_ROOT/usr/local/bin/calc
 
 %clean
-sudo rm -rf $RPM_BUILD_ROOT
+#sudo rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root,-)
