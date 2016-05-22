@@ -5,6 +5,8 @@ Version:        %{calc_version}
 Release:        1
 License:        GPL
 
+Requires: java-1.8.0-openjdk
+
 %description
 
 %prep
