@@ -12,13 +12,13 @@ License:        GPL
 %build
 
 %install
-rm -rf /usr/local/taboola
+sudo rm -rf /usr/local/taboola
 mkdir -p /usr/local/taboola/calc/lib
 mkdir -p /usr/local/bin
 ln -s /usr/local/taboola/calc/execute_calc.sh /usr/local/bin/calc
 
 %clean
-rm -rf /usr/local/taboola
+sudo rm -rf /usr/local/taboola
 
 
 %files
