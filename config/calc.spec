@@ -5,6 +5,8 @@ Version:        %{calc_version}
 Release:        1
 License:        GPL
 
+%description
+
 %prep
 
 %build
