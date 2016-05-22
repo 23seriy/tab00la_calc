@@ -8,7 +8,7 @@
     <artifactId>taboola_test</artifactId>
     <version>1.0-SNAPSHOT</version>
          <scm>
-		<developerConnection>scm:git@github.com:23seriy/tab00la_calc.git</developerConnection>
+		<developerConnection>scm:git:git@github.com:23seriy/tab00la_calc.git</developerConnection>
 	  <tag>HEAD</tag>
          </scm>
     <dependencies>
