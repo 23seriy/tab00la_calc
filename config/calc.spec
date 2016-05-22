@@ -16,7 +16,7 @@ Requires: java-1.8.0-openjdk
 %install
 sudo rm -rf $RPM_BUILD_ROOT
 sudo mkdir -p $RPM_BUILD_ROOT/usr/local/taboola/calc/lib
-#mkdir -p $RPM_BUILD_ROOT/usr/local/bin
+mkdir -p $RPM_BUILD_ROOT/usr/local/bin
 sudo cp -R /usr/local/taboola/calc/* $RPM_BUILD_ROOT/usr/local/taboola/calc/
 sudo ln -sf /usr/local/taboola/calc/execute_calc.sh $RPM_BUILD_ROOT/usr/local/bin/calc
 
