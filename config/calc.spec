@@ -14,7 +14,7 @@ License:        GPL
 %install
 sudo rm -rf /usr/local/taboola
 sudo mkdir -p /usr/local/taboola/calc/lib
-ln -s /usr/local/taboola/calc/execute_calc.sh /usr/local/bin/calc
+sudo ln -s /usr/local/taboola/calc/execute_calc.sh /usr/local/bin/calc
 
 %clean
 sudo rm -rf /usr/local/taboola
