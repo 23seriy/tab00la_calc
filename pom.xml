@@ -4,10 +4,10 @@
 
     <groupId>taboola_test</groupId>
     <artifactId>taboola_test</artifactId>
-    <version>1.57</version>
+    <version>1.58-SNAPSHOT</version>
          <scm>
 		<developerConnection>scm:git:git@github.com:23seriy/tab00la_calc.git</developerConnection>
-	  <tag>taboola_test-1.57</tag>
+	  <tag>taboola_test-1.6</tag>
          </scm>
     <dependencies>
         <dependency>
